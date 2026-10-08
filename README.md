@@ -14,14 +14,6 @@ We’ll start by first defining what our blocks will look like. In blockchain, e
 
 Awesome! We have our block structure, but we’re creating a blockchain. We need to start adding blocks to the actual chain. As I mentioned earlier, each block requires information from the previous block. But with that being said, a question arises: how does the first block in the blockchain get there? Well, the first block, or genesis block, is a special block. In many cases, it’s added manually or has unique logic allowing it to be added.
 
-Get Gerald Nash’s stories in your inbox
-Join Medium for free to get updates from this writer.
-
-Enter your email
-Subscribe
-
-Remember me for faster sign in
-
 We’ll create a function that simply returns a genesis block to make things easy. This block is of index 0, and it has an arbitrary data value and an arbitrary value in the “previous hash” parameter.
 
 
